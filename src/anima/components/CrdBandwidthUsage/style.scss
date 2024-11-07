@@ -1,0 +1,86 @@
+.crd-bandwidth-usage {
+    background-color: var(--gtt-white);
+    border-radius: 10px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  
+    .element-sites-bandwidth {
+      color: #000000;
+      font-family: "Arial-Regular", Helvetica;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 0;
+  
+      .text-wrapper-6 {
+        color: #000000;
+        font-family: "Arial-Regular", Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 24px;
+      }
+  
+      .text-wrapper-7 {
+        font-family: "Arial-Bold", Helvetica;
+        font-weight: 700;
+      }
+    }
+    
+    .up {
+      color: var(--gtt-light-grey);
+      font-family: "Arial-Regular", Helvetica;
+      font-size: 14px;
+      font-weight: 400;
+      left: 149px;
+      letter-spacing: 0;
+      line-height: 24px;
+      position: absolute;
+      text-align: center;
+      top: 9px;
+      width: 49px;
+    }
+    
+    .element-TB {
+      color: #000000;
+      font-family: "Arial-Regular", Helvetica;
+      font-size: 14px;
+      font-weight: 400;
+      left: 125px;
+      letter-spacing: 0;
+      line-height: 24px;
+      position: absolute;
+      text-align: center;
+      top: 35px;
+      width: 96px;
+    }
+    
+    .element-TB-2 {
+      color: #000000;
+      font-family: "Arial-Regular", Helvetica;
+      font-size: 14px;
+      font-weight: 400;
+      left: 232px;
+      letter-spacing: 0;
+      line-height: 24px;
+      position: absolute;
+      text-align: center;
+      top: 35px;
+      width: 86px;
+    }
+  
+    .down {
+      color: var(--gtt-light-grey);
+      font-family: "Arial-Regular", Helvetica;
+      font-size: 14px;
+      font-weight: 400;
+      left: 224px;
+      letter-spacing: 0;
+      line-height: 24px;
+      position: absolute;
+      text-align: center;
+      top: 9px;
+      width: 105px;
+    }
+  }

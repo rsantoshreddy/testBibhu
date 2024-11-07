@@ -1,0 +1,101 @@
+/* Ensure the HTML and body take full height and width */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.input-group {
+    align-items: center;
+}
+
+/* Default theme settings */
+:root {
+    --bg-light: #ffffff;
+    --text-light: #000000;
+    --bg-dark: #343a40;
+    --text-dark: #f8f9fa;
+    --gtt-subtle-grey: #eff1f2;
+    --gtt-subtle-white: #f7f7f7;
+    --gtt-border-grey: #c2c6c9;
+    --gtt-text-grey: #626264;
+    --gtt-hover-grey: #f0f0f0;
+    --gtt-text-black: black;
+    --gtt-card-bg-white: white;
+}
+
+/* Light theme */
+[data-theme='light'] {
+    background-color: var(--gtt-subtle-grey);
+    color: var(--text-light);
+}
+
+/* Dark theme */
+[data-theme='dark'] {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+/* Apply smooth transitions for background and text color changes */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Make sure your root container also takes full height */
+#root,
+.app-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    text-align: center;
+    --body-base-font-family: 'Inter', Helvetica;
+    --body-base-font-size: 16px;
+    --body-base-font-style: normal;
+    --body-base-font-weight: 400;
+    --body-base-letter-spacing: 0px;
+    --body-base-line-height: 140%;
+    --body-strong-font-family: 'Inter', Helvetica;
+    --body-strong-font-size: 16px;
+    --body-strong-font-style: normal;
+    --body-strong-font-weight: 600;
+    --body-strong-letter-spacing: 0px;
+    --body-strong-line-height: 140%;
+    --drop-shadow-200: 0px 1px 4px 0px rgba(12, 12, 13, 0.05),
+        0px 1px 4px 0px rgba(12, 12, 13, 0.1);
+    --gtt-black: rgba(0, 0, 0, 1);
+    --gtt-cadillac-pink: rgba(227, 138, 174, 1);
+    --gtt-charcoal: rgba(36, 39, 41, 1);
+    --gtt-dark-grey: rgba(70, 74, 78, 1);
+    --gtt-green: rgba(78, 216, 105, 1);
+    --gtt-light-green: rgba(153, 225, 157, 1);
+    --gtt-light-grey: rgba(194, 198, 201, 1);
+    --gtt-mid-grey: rgba(102, 108, 112, 1);
+    --gtt-peach: rgba(255, 153, 110, 1);
+    --gtt-purple: rgba(130, 80, 255, 1);
+    --gtt-red: rgba(255, 46, 46, 1);
+    --gtt-skyblue: rgba(80, 195, 255, 1);
+    --gtt-smalt-blue: rgba(81, 128, 143, 1);
+    --gtt-subtle-grey: rgba(239, 241, 242, 1);
+    --gtt-turquoise: rgba(56, 181, 171, 1);
+    --gtt-violet: rgba(185, 101, 229, 1);
+    --gtt-white: rgba(255, 255, 255, 1);
+    --gtt-yellow: rgba(255, 153, 110, 1);
+    --system-colors-backgrounds-primary: rgba(255, 255, 255, 1);
+}
+
+.logo {
+    max-width: 600px;
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #64ff92aa);
+}

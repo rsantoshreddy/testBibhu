@@ -1,0 +1,46 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.dashboard-info-cards-container {
+    padding: 0;
+    margin-bottom: 20px;
+    .DashboardInfoCards {
+        display: flex;
+        font-size: 14px;
+        font-family: map-get($font-families, 'primary');
+        justify-content: space-between;
+        .info-cards-container {
+            @include card-base;
+            @include flex-center;
+            width: 100%;
+            height: 68px;
+            .DashboardInfoCards-details-container {
+                .info-card-title {
+                    color: map-get($colors, 'light-grey');
+                    font-family: map-get($font-families, 'bold');
+                }
+            }
+
+            .DashboardInfoCards-label-metadata-container {
+                .info-card-meta-data,
+                .info-card-label {
+                    color: map-get($colors, 'black');
+                    font-family: map-get($font-families, 'bold');
+                }
+
+                .info-card-label {
+                    font-weight: 600;
+                }
+            }
+
+            .DashboardInfoCards-solo-value {
+                font-weight: 600;
+                font-size: 18px !important;
+            }
+        }
+    }
+
+    @include breakpoint-down(lg) {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,34 @@
+.SignInPage {
+    height: 100vh;
+
+    .SignInLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .SignInContent {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .SignInSpacer {
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 991px) {
+    .SignInPage {
+        .SignInLogo {
+            height: auto;
+        }
+
+        .SignInContent {
+            width: 100%;
+        }
+    }
+}

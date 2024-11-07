@@ -1,0 +1,44 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/mixins';
+
+.NavbarHeader {
+    .NavbarHeader-link-items {
+        margin: 0px 10px;
+    }
+
+    .NavbarHeader-icons-main-container {
+        display: flex;
+        align-items: center;
+        .alert-icon,
+        .user-icon {
+            margin-right: 10px;
+        }
+        .chevron-icon {
+            margin-top: 5px;
+        }
+        .NavbarHeader-icons:hover {
+            cursor: pointer;
+        }
+    }
+
+    @include media-breakpoint-up(xs) {
+        .extended-view {
+            display: none;
+        }
+
+        .collapsed-view {
+            display: block;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .extended-view {
+            display: block;
+        }
+
+        .collapsed-view {
+            display: none;
+        }
+    }
+}

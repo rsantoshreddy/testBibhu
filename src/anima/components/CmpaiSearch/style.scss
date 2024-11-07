@@ -1,0 +1,28 @@
+.cmp-aisearch {
+    .input-fields-icon {
+        display: flex;
+        align-items: center;
+        background-color: var(--gtt-white);
+        border-radius: 10px;
+        height: 45px;
+        width: 100%;
+    }
+
+    .placeholder {
+        width: 100%;
+        margin: 0 10px;
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        font-weight: 400;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: #626264;
+        font-family: 'Open Sans', Helvetica;
+    }
+
+    .group-2 {
+        padding: 5px;
+        height: 40px;
+    }
+}

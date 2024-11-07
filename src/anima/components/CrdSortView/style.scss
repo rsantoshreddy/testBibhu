@@ -1,0 +1,35 @@
+.crd-sortview {
+    height: 44px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: var(--gtt-white);
+
+    .title-4 {
+        color: #172135;
+        font-family: 'Arial-Bold', Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+
+    .frame-12 {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-5 {
+        color: #172135;
+        font-family: 'Arial-Regular', Helvetica;
+        font-size: 14px;
+    }
+
+    .icon {
+        height: 16px;
+        vertical-align: unset;
+    }
+}

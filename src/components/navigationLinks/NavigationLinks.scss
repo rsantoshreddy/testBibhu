@@ -1,0 +1,21 @@
+.NavigationLinks {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .text-wrapper-28 {
+        display: block;
+        text-decoration: none;
+        color: #777e90;
+        font-family: 'DM Sans', Helvetica;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        letter-spacing: 0;
+        line-height: 16px;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        width: fit-content;
+    }
+}

@@ -1,0 +1,79 @@
+.DashboardPanel {
+    padding: 2rem;
+    .dashboard-info-cards-container {
+        .DashboardInfoCards {
+            display: flex;
+            font-size: 12px;
+            justify-content: space-between;
+            border: 1px solid;
+            height: 65px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+
+            .info-card-solo-value {
+                font-size: 18px;
+            }
+
+            .DashboardInfoCards-details-container {
+                .info-card-title {
+                    font-weight: 800;
+                }
+            }
+
+            .DashboardInfoCards-label-metadata-container {
+                .info-card-meta-data,
+                .info-card-label {
+                    font-weight: 800;
+                }
+            }
+
+            .DashboardInfoCards-solo-value {
+                font-weight: 800;
+            }
+        }
+    }
+    .DashboardInfoCardsdashboard-info-cards-container:last-child {
+        margin-right: 0;
+    }
+
+    .dashboard-search-and-task-container {
+        display: flex;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 15px;
+        .input-form-group {
+            margin-bottom: 15px;
+        }
+        .dashboard-tasks-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 5px;
+
+            .tasks-toggle-icon {
+                width: 30px;
+                height: 30px;
+                cursor: pointer;
+                font-weight: 900;
+                border: 2px solid;
+                border-radius: 50%;
+            }
+
+            .tasks-toggle-icon:hover {
+                background-color: darkgrey;
+            }
+
+            .tasks-title {
+                font-size: 12px;
+                font-weight: 800;
+            }
+
+            .tasks-details {
+                font-size: 14px;
+            }
+        }
+    }
+}

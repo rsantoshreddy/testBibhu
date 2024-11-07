@@ -1,0 +1,113 @@
+.crd-site-default {
+    position: relative;
+    margin-bottom: 20px;
+
+    .div {
+        align-items: flex-start;
+        background-color: var(--gtt-white);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0px;
+        padding: 15px;
+        position: relative;
+
+        .frame {
+            width: 100%;
+
+            .frame-2 {
+                display: flex;
+                justify-content: space-between;
+
+                .title {
+                    color: var(--gtt-charcoal);
+                    font-family: 'Arial-Bold', Helvetica;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    letter-spacing: 0;
+                    line-height: normal;
+                    position: relative;
+
+                    .text-wrapper {
+                        color: #242729;
+                        font-weight: 700;
+                    }
+
+                    .span {
+                        color: #242729;
+                        font-family: 'Arial-Regular', Helvetica;
+                    }
+                }
+
+                .icon-instance-node {
+                    height: 40px !important;
+                    position: relative !important;
+                    width: 40px !important;
+                }
+            }
+        }
+
+        .frame-4 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .p {
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 0;
+                letter-spacing: 0;
+                line-height: normal;
+                color: var(--gtt-charcoal);
+                font-family: 'Arial-Bold', Helvetica;
+
+                .text-wrapper-2 {
+                    font-weight: 700;
+                }
+
+                .text-wrapper-3 {
+                    font-family: 'Arial-Regular', Helvetica;
+                }
+            }
+        }
+
+        .title-2 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 0;
+            letter-spacing: 0;
+            line-height: normal;
+            color: transparent;
+            font-family: 'Arial-Bold', Helvetica;
+
+            .text-wrapper-4 {
+                color: #242729;
+            }
+
+            .text-wrapper-5 {
+                color: #51808f;
+            }
+        }
+
+        .title-3 {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 0;
+            letter-spacing: 0;
+            line-height: normal;
+            color: var(--gtt-charcoal);
+            font-family: 'Arial-Bold', Helvetica;
+        }
+    }
+
+    .group {
+        height: 60px;
+        position: relative;
+        width: 100%;
+    }
+
+    .btn-default-instance {
+        flex: 0 0 auto !important;
+    }
+}
